@@ -9,7 +9,6 @@ password. Sử dụng JDBC để giao tiếp với cơ sở dữ liệu. User Ma
 	<li>
 		Thêm mới user : Thêm thông tin user bằng cách điền vào các field: name, age, sex, address, username,password và click nút Submit
 	</li>
-
 	<li>
 		Hiển thị danh sách user: Hiển thị tất cả các thông tin user
 	</li>
@@ -20,6 +19,7 @@ password. Sử dụng JDBC để giao tiếp với cơ sở dữ liệu. User Ma
 		Tìm kiếm thông tin user : Điền thông tin muốn tìm kiếm tại trang danh sách user và click nút Tìm kiếm, các field không điền thì sẽ mặc định tìm tất cả, sau đó call api và sẽ hiển thị kết quả lên table.
 	</li>
 </ul>
+
 Ngoài ra ứng dụng có chức năng login, logout, register và phân quyền người dùng.
 <ul>
 	<li>
@@ -39,9 +39,7 @@ Ngoài ra ứng dụng có chức năng login, logout, register và phân quyề
 			Khi người dùng đăng nhập tài khoản với quyền 'admin', người dùng có thể truy cập tất cả các trang.
 			</li>
 		</ul>
-		
 	</li>
-
 </ul>
 # Công cụ và Framework
 <ul>
@@ -57,7 +55,6 @@ Ngoài ra ứng dụng có chức năng login, logout, register và phân quyề
 <li>
 	Jackson Data Binding
 </li>
-
 </ul>
 
 # Các bước chạy ứng dụng
@@ -72,7 +69,6 @@ Cài đặt MySQL , nếu máy chưa cài thì có thể tải tại: https://ww
 <li>
 	Tại IDE, mở /dao/impl/AbstractDao.java để thay đổi username và password của DataBase phù hợp với cơ sở 
 	dữ liệu tại máy của bạn.
-	
 </li>
 <li>
 	Chạy với Server TomCat
