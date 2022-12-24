@@ -73,8 +73,4 @@ Cài đặt MySQL , nếu máy chưa cài thì có thể tải tại: https://ww
 <li>
 	Chạy với Server TomCat
 </li>
-<li>
-
-</li>
-
 </ul>
