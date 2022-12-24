@@ -1,4 +1,5 @@
 
+USE user_manager;
 create table user
 (
   id       int auto_increment
@@ -9,11 +10,21 @@ create table user
   username varchar(255)              null,
   password varchar(255)              null,
   address  varchar(255) charset utf8 null
-);
+)
 
 insert into user(name, age, sex, address, username, password)
 values('Nguyễn Văn A', 23, 1,'Hà nội', 'vana123', '1234'),
 ('Nguyễn Văn A', 23, 1,'Hà nội', 'vana123', '1234'),
 ('Nguyễn Thị B', 22, 2,'Hà nội', 'thib123', '1234'),
 ('Nguyễn Văn C', 25, 1,'Hà nội', 'vanc123', '1234'),
-('Nguyễn Văn D', 23, 1,'Hà nội', 'vand123', '1234');
+('Nguyễn Văn D', 23, 1,'Hà nội', 'vand123', '1234')
+
+create table role
+(
+  id       int auto_increment
+    primary key,
+    NAME VARCHARACTER(50)
+)
+insert into role(name)
+VALUES('admin'),
+('user');
